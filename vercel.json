@@ -1,6 +1,10 @@
 {
   "rewrites": [
     { "source": "/privacy", "destination": "/privacy.html" },
-    { "source": "/terms", "destination": "/terms.html" }
+    { "source": "/terms", "destination": "/terms.html" },
+    { "source": "/blog", "destination": "/blog/index.html" },
+    { "source": "/blog/best-free-shopee-hashtag-generators-compared-2026", "destination": "/blog/best-free-shopee-hashtag-generators-compared-2026.html" },
+    { "source": "/blog/best-ai-product-description-generators-ecommerce-2026", "destination": "/blog/best-ai-product-description-generators-ecommerce-2026.html" },
+    { "source": "/blog/how-to-write-shopee-product-description", "destination": "/blog/how-to-write-shopee-product-description.html" }
   ]
 }
