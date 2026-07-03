@@ -2,6 +2,7 @@
   "rewrites": [
     { "source": "/privacy", "destination": "/privacy.html" },
     { "source": "/terms", "destination": "/terms.html" },
+    { "source": "/refund", "destination": "/refund.html" },
     { "source": "/blog", "destination": "/blog/index.html" },
     { "source": "/blog/best-free-shopee-hashtag-generators-compared-2026", "destination": "/blog/best-free-shopee-hashtag-generators-compared-2026.html" },
     { "source": "/blog/best-free-shopee-hashtag-generators-compared-2026-vi", "destination": "/blog/best-free-shopee-hashtag-generators-compared-2026-vi.html" },
