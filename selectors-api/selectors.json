@@ -1,0 +1,68 @@
+{
+  "_comment": "平台输入框 DOM 选择器 — 用于一键填入功能。支持分国家站点精确匹配。content.js 按 hostname 匹配：shopee.co.th → shopee_th → shopee 降级。可通过 https://api.postboost.ai/selectors 热更新。",
+  "tiktok": {
+    "title": "input[name='productName'], input[placeholder*='product'], input[placeholder*='Product']",
+    "caption": "div[data-contents='true'][contenteditable='true'], div.DraftEditor-editorContainer div[contenteditable='true'], textarea[name='description'], div[contenteditable='true'][aria-label], textarea.caption-input, textarea[placeholder]",
+    "tags": "input[placeholder*='#'], input[name='hashtag'], input.hashtag-input, input[data-e2e='hashtag-input']"
+  },
+  "shopee": {
+    "title": "input[name='name'], input[data-testid='product-name-input'], div.product-name input, input[class*='product-name'], input[maxlength='120']",
+    "caption": "textarea[name='description'], div.product-description textarea, div[class*='description'] textarea, textarea[data-testid='product-description'], div[contenteditable='true'][data-placeholder], textarea[placeholder]",
+    "tags": ""
+  },
+  "lazada": {
+    "title": "input[name='name'], input[id*='product-name'], input[class*='product-title'], input[maxlength='120'], input[data-field='name']",
+    "caption": "textarea[name='description'], div.description-editor div[contenteditable='true'], div[class*='description'] textarea, div[contenteditable='true'], textarea[placeholder]",
+    "tags": ""
+  },
+  "shopee_th": {
+    "title": "input[placeholder*='ชื่อสินค้า'], input[name='product_name'], input[name='name']",
+    "caption": "textarea[placeholder*='รายละเอียด'], div[contenteditable], textarea[name='description']",
+    "tags": ""
+  },
+  "shopee_vn": {
+    "title": "input[placeholder*='Tên sản phẩm'], input[name='product_name'], input[name='name']",
+    "caption": "textarea[placeholder*='Mô tả'], div[contenteditable], textarea[name='description']",
+    "tags": ""
+  },
+  "shopee_id": {
+    "title": "input[placeholder*='Nama Produk'], input[name='product_name'], input[name='name']",
+    "caption": "textarea[placeholder*='Deskripsi'], div[contenteditable], textarea[name='description']",
+    "tags": ""
+  },
+  "shopee_sg": {
+    "title": "input[name='product_name'], input[name='name']",
+    "caption": "textarea[name='description'], div[contenteditable], textarea[placeholder*='Description']",
+    "tags": ""
+  },
+  "shopee_my": {
+    "title": "input[placeholder*='Product Name'], input[name='product_name'], input[name='name']",
+    "caption": "textarea[placeholder*='Description'], div[contenteditable], textarea[name='description']",
+    "tags": ""
+  },
+  "lazada_th": {
+    "title": "input[placeholder*='ชื่อ'], input[name='productTitle'], input[name='name']",
+    "caption": "textarea[placeholder*='รายละเอียด'], textarea[name='description'], div[contenteditable]",
+    "tags": ""
+  },
+  "lazada_vn": {
+    "title": "input[placeholder*='Tên'], input[name='productTitle'], input[name='name']",
+    "caption": "textarea[placeholder*='Mô tả'], textarea[name='description'], div[contenteditable]",
+    "tags": ""
+  },
+  "lazada_id": {
+    "title": "input[placeholder*='Nama'], input[name='productTitle'], input[name='name']",
+    "caption": "textarea[placeholder*='Deskripsi'], textarea[name='description'], div[contenteditable]",
+    "tags": ""
+  },
+  "lazada_sg": {
+    "title": "input[placeholder*='Product Title'], input[name='productTitle']",
+    "caption": "textarea[name='description'], div[contenteditable]",
+    "tags": ""
+  },
+  "lazada_my": {
+    "title": "input[placeholder*='Product Title'], input[name='productTitle']",
+    "caption": "textarea[name='description'], div[contenteditable]",
+    "tags": ""
+  }
+}
